@@ -3,171 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANJU ABHI</title>
+    <title>Anju & Abhi - Our Universe</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div id="book-container">
-        <div id="book">
-            <div class="cover">
-                <div class="front">
-                    <h1>ANJU ABHI</h1>
-                    <p>Tap to open this book</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="experience-container"></div>
+    <div id="vignette"></div>
 
-    <div id="password-modal" class="hidden">
-        <div class="password-content">
-            <h2>Enter Password</h2>
-            <input type="password" id="password-input">
-            <button id="password-button">Enter</button>
-            <p id="error-message" class="hidden">Wrong Password</p>
+    <div id="ui-container">
+        <div id="title-card" class="hidden">
+            <h1>ANJU & ABHI</h1>
         </div>
-    </div>
-
-    <div id="main-book" class="hidden">
-        <div id="flipbook">
-            <div class="page">
-                <div class="content">
-                    <h2 class="date-text">28/10/25</h2>
-                    <p class="swipe-text">Swipe this page</p>
-                </div>
+        
+        <div id="key-interface" class="hidden">
+            <p>Enter the Harmonic Key</p>
+            <div id="key-rings">
+                <div class="ring"></div><div class="ring"></div><div class="ring"></div>
+                <div class="ring"></div><div class="ring"></div><div class="ring"></div>
             </div>
-            <!-- Add 30 pages for photos here -->
-            <div class="page">
-                <img src="images/photo1.jpg" alt="Photo 1">
-                <p class="quote">"You are my today and all of my tomorrows."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo2.jpg" alt="Photo 2">
-                <p class="quote">"Every love story is beautiful, but ours is my favorite."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo3.jpg" alt="Photo 3">
-                <p class="quote">"I love you more than yesterday and less than tomorrow."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo4.jpg" alt="Photo 4">
-                <p class="quote">"In all the world, there is no heart for me like yours."</p>
-            </div>
-             <div class="page">
-                <img src="images/photo5.jpg" alt="Photo 5">
-                <p class="quote">"You're my favorite place to go to when my mind searches for peace."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo6.jpg" alt="Photo 6">
-                <p class="quote">"With you, every moment is a fairy tale."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo7.jpg" alt="Photo 7">
-                <p class="quote">"Forever and always, yours."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo8.jpg" alt="Photo 8">
-                <p class="quote">"You are the sunshine that lights up my world."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo9.jpg" alt="Photo 9">
-                <p class="quote">"I love you to the 🌙 and back."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo10.jpg" alt="Photo 10">
-                <p class="quote">"You're the peanut butter to my jelly."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo11.jpg" alt="Photo 11">
-                <p class="quote">"P.S. I love you."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo12.jpg" alt="Photo 12">
-                <p class="quote">"You stole my heart, but I'll let you keep it."</p>
-            </div>
-             <div class="page">
-                <img src="images/photo13.jpg" alt="Photo 13">
-                <p class="quote">"I'm wearing the smile you gave me."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo14.jpg" alt="Photo 14">
-                <p class="quote">"You make my heart skip a beat."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo15.jpg" alt="Photo 15">
-                <p class="quote">"Together is my favorite place to be."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo16.jpg" alt="Photo 16">
-                <p class="quote">"Your arms are where I belong."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo17.jpg" alt="Photo 17">
-                <p class="quote">"With you, every day is Valentine's Day."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo18.jpg" alt="Photo 18">
-                <p class="quote">"You are my home."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo19.jpg" alt="Photo 19">
-                <p class="quote">"My heart is yours. Always has been."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo20.jpg" alt="Photo 20">
-                <p class="quote">"You. Always you."</p>
-            </div>
-             <div class="page">
-                <img src="images/photo21.jpg" alt="Photo 21">
-                <p class="quote">"You make my heart smile."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo22.jpg" alt="Photo 22">
-                <p class="quote">"All of me loves all of you."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo23.jpg" alt="Photo 23">
-                <p class="quote">"Your love is my greatest adventure."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo24.jpg" alt="Photo 24">
-                <p class="quote">"You are my dream come true."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo25.jpg" alt="Photo 25">
-                <p class="quote">"We are written in the stars."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo26.jpg" alt="Photo 26">
-                <p class="quote">"You're my happy place."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo27.jpg" alt="Photo 27">
-                <p class="quote">"You make my heart do the happy dance."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo28.jpg" alt="Photo 28">
-                <p class="quote">"You're my definition of perfect."</p>
-            </div>
-             <div class="page">
-                <img src="images/photo29.jpg" alt="Photo 29">
-                <p class="quote">"Falling for you more every day."</p>
-            </div>
-            <div class="page">
-                <img src="images/photo30.jpg" alt="Photo 30">
-                <p class="quote">"Love looks good on us."</p>
-            </div>
-            <div class="page">
-                <div class="content">
-                    <h2 class="continue-text">To be continued...</h2>
-                </div>
-            </div>
+            <input type="text" id="key-input" maxlength="6" autofocus autocomplete="off">
         </div>
-    </div>
 
-    <script src="turnjs/jquery.min.js"></script>
-    <script src="turnjs/turn.min.js"></script>
-    <script src="script.js"></script>
+        <div id="memory-viewer" class="hidden">
+            <div class="photo-frame">
+                <img id="memory-photo" src="" alt="Memory">
+            </div>
+            <p id="memory-quote"></p>
+        </div>
+
+        <div id="final-message" class="hidden">
+            <p>Our love is not a memory, but a living universe.</p>
+        </div>
+        
+        <div id="loader">
+            <p>Awakening the universe...</p>
+        </div>
+        
+        <div id="custom-cursor"></div>
+    </div>
+    
+    <audio id="ambient-music" loop src="assets/audio/background-music.mp3"></audio>
+    <audio id="key-sound" src="https://assets.codepen.io/28963/mechanic-key-1.mp3"></audio>
+    <audio id="unlock-sound" src="https://assets.codepen.io/28963/unlock-sound-1.mp3"></audio>
+
+    <!-- This is an Import Map. It tells the browser where to find the Three.js libraries. -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.128.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.128.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="utils.js" type="module"></script>
+    <script src="experience.js" type="module"></script>
+
 </body>
 </html>
